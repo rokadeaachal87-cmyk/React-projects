@@ -126,7 +126,7 @@ function App() {
     {showcanvas && data[1].map((canvasdets, canvasIndex) => (
       <Canvas key={canvasIndex} details={canvasdets} />
     ))}
-    <div className='w-full  relative h-150 z-50  mt-32 px-10'>
+    <div className='w-full relative h-150 z-50  mt-32 px-10'>
     
    
       <h1 className="text-8xl tracking-tighter">About The Brand</h1>
